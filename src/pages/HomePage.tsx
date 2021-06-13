@@ -1,9 +1,10 @@
 import React from "react";
+import PackagesLists from "../components/PackagesLists";
 
 export const HomePage: React.FC = () => {
 	return (
 		<div>
-			<p>Typescript tutorial.</p>
+			<PackagesLists />
 		</div>
 	);
 };
